@@ -54,3 +54,23 @@ insert into libreria.producto (tipo, nombre, autor, editorial, cantidad, precioU
 values (3, 'Paper Programación orienta a Objetos', 'Davirs', 'Biblioteca Colombi', 5, 25000.0, '18/04/2022 08:58:40 PM', NULL);
 
 commit;
+
+--
+
+CREATE TABLE IF NOT exists libreria.producto_eliminado(
+ 	productoid		int NOT null PRIMARY key COMMENT 'LLave primaria de cada producto, es incremental',
+	tipo			tinyint not null,
+	nombre			varchar(50) not null,
+	autor			varchar(10) not null,
+	editorial		varchar(30) not null,
+	cantidad        int not null,
+	precioUnitario	decimal(14,4) not null,
+	fechaRegistro	varchar(50) not null,
+	fechaEliminacion varchar(50) not null,
+	descuento		int null,
+	CONSTRAINT fk_prod_tipoproduct_eliminado FOREIGN KEY (tipo) references libreria.tipoproducto(id)
+)
+ENGINE = InnoDB
+COMMENT='Tabla de los productos eliminados';
+
+commit;
