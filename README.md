@@ -14,7 +14,7 @@ Antes de comenzar a desarrollar, se creó un diagrama básico para ver cómo fun
 
 El diagrama tiene 2 Clases de tipo Interface para así establecer los servicios que contendrá el proyecto.
 
-
+## Diagrama
 ![diagram](https://user-images.githubusercontent.com/80859223/163813306-2f3a6c0f-4233-4db7-b6d5-791c272a84e0.png)
 
 ### Estructura del proyecto en Eclipse
