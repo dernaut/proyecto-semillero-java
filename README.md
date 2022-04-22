@@ -75,10 +75,6 @@ Esta rama implementa el proyecto de la libreria con conexión a base de datos, t
   <img src="https://user-images.githubusercontent.com/80859223/164782178-c55c61cc-8023-40bf-87f3-5f9775ef2d64.png" />
 </p>
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/80859223/164782428-ff6709c5-feeb-4cd8-8f5a-120075c5ec33.png" />
-</p>
-
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/80859223/164782539-b9854400-b7bb-402d-a959-e514dc574e30.png" />
